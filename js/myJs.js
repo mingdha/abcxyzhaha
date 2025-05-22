@@ -16,7 +16,7 @@ function firstQuestion(){
     Swal.fire({
         title: 'embechitdangiu!',
         text: 'anh bin xin loi vi lam chit bun.',
-        imageUrl: '../img/cuteCat.jpg',
+        imageUrl: "../img/cuteCat.jpg",
         imageWidth: 300,
         imageHeight: 300,
         background: '#fff url("../img/iput-bg.jpg")',
@@ -28,7 +28,7 @@ function firstQuestion(){
 
  // switch button position
  function switchButton() {
-    var audio = new Audio('../sound/duck.mp3');
+    var audio = new Audio("../sound/duck.mp3");
     audio.play();
     var leftNo = $('#no').css("left");
     var topNO = $('#no').css("top");
@@ -41,7 +41,7 @@ function firstQuestion(){
 }
 // move random button póition
 function moveButton() {
-    var audio = new Audio('../sound/Swish1.mp3');
+    var audio = new Audio("../sound/Swish1.mp3");
     audio.play();
     if (screen.width<=600) {
         var x = Math.random() * 300;
@@ -93,7 +93,7 @@ function textGenerate() {
 
 // show popup
 $('#yes').click(function() {
-    var audio = new Audio('../sound/tick.mp3');
+    var audio = new Audio("../sound/tick.mp3");
     audio.play();
     Swal.fire({
         title: 'mong e be tha loi cho anh',
@@ -123,7 +123,7 @@ $('#yes').click(function() {
                 background: '#fff url("../img/iput-bg.jpg")',
                 title: 'anh cam on be nhiu :3',
                 text: "toi nay vao sky voi anh nhaaanhaaa",
-                confirmButtonColor: '#83d0c9',
+                confirmButtonColor: '#7c2f36',
                 onClose: () => {
                     window.location = 'http://fb.com';
                   }

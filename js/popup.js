@@ -4,8 +4,8 @@ Swal.fire({
     padding: '3em',
     background: '#fff url(/images/trees.png)',
     backdrop: `
-      rgba(0,0,123,0.4)
-      url("/images/nyan-cat.gif")
+      rgba(0, 0, 0, 0.4)
+      url("/img/giphy2.gif")
       left top
       no-repeat
     `
