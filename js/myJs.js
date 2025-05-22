@@ -121,8 +121,8 @@ $('#yes').click(function() {
                 width: 900,
                 confirmButtonText: 'Okiiiii lun <3',
                 background: '#fff url("../img/iput-bg.jpg")',
-                title: 'anh cam on be nhiu :3',
-                text: "toi nay vao sky voi anh nhaaanhaaa",
+                title: '<span style="color: black;">anh iu be nhieu :3 </span>',
+                html: '<span style="color: black;">toi nay vao sky voi anh nhaaanhaaa</span>',
                 confirmButtonColor: '#7c2f36',
                 onClose: () => {
                     window.location = 'http://fb.com';
